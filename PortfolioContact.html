@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Tech Academy online bootcamp の ポートフォリオ">
+    <meta name="keywords" content="HTML,Tech Academy online bootcamp,プログラミング,Ruby on Rails">
+
+    <title>Yuko's Portfolio</title> 
+    
+    <!-- Bootstrap CSS 読み込み -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <!-- jQuery 読み込み -->
+    <script src="https://techacademy-yukoshiono.c9.io/bootstrap/table.html"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <style>
+    header {
+        font-size: 16px;
+        /*border-bottom: 3px solid#e767e7;*/
+        /*background-color: #f0f8f8;*/
+      }
+  
+    body {
+       font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;     
+       background-position: center center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       padding-bottom: 500px;
+      }
+   
+    footer {
+        font-size: 16px;
+        background-color: #f0f8f8;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+            data-target="#site-menu" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"></a>
+          </div>
+          
+          <div class="collapse navbar-collapse" id="site-menu">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="Portfolio.html">HOME</a></li>
+              <li><a href="PortfolioAbout.html">About</a></li>
+              <li><a href="PortfolioWorks.html">Works</a></li>
+              <li><a href="PortfolioBlog.html">Blog</a></li>
+              <li class="active"><a href="PortfolioContact.html">Contact<span class="sr-only">(current)</span></a></li>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="page header">
+        <h1>お問い合わせ</h1>
+      </div>
+        <div class="row">
+          <div class="icon col-sm-3 hidden-xs">
+            <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+            <div class="icon-caption">メール</div>
+          </div>
+          <div class="content col-sm-9">
+            <h2>メールによるお問い合わせ</h2>
+        　  <form class="form-horizontal">
+              <div class="form-group">
+                <label for="inputcompanyname" class="col-sm-2 control-label">お名前</label>
+                <div class="col-sm-10">
+                  <input type="例）木村　太郎" class="form-control" id="inputcompanyname" placeholder="例）木村　太郎">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputName" class="col-sm-2 control-label">メールアドレス</label>
+                <div class="col-sm-10">
+                  <input type="例）kjchkjc@gmail.com" class="form-control" id="inputName" placeholder="例）kjchkjc@gmail.com">
+              　</div>
+            　</div>
+　　　　　　  <div class="form-group">
+　　　　　　    <div class="col-sm-offset-2 col-sm-10">
+　　　  　　      <button type="button" class="btn btn-block btn-success">お問い合わせを送信</button>
+　　　　　　    </div>
+　　　　　　</form>
+        </div>
+    </div>
+    <footer>
+      <div class="copyright">&copy;2015 Yuko Shiono</div>
+    </footer>
+  </body>    
+</html>
